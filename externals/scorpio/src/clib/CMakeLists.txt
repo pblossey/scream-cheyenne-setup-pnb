@@ -200,6 +200,8 @@ target_compile_definitions (pioc
   PUBLIC MPICH_SKIP_MPICXX)
 target_compile_definitions (pioc
   PUBLIC OMPI_SKIP_MPICXX)
+target_compile_definitions (pioc
+  PUBLIC MPI_NO_CPPBIND)
 
 # Add user-specified include/libs/compiler/link options
 target_include_directories (pioc
